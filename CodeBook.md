@@ -1,10 +1,10 @@
 ## Objectives of the script run_analysis.R 
 
-*Merge the training and the test sets to create one data set.
-*Extract only the measurements on the mean and standard deviation for each measurement.
-*Use descriptive activity names to name the activities in the data set
-*Appropriately label the data set with descriptive variable names
-*Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+* Merge the training and the test sets to create one data set.
+* Extract only the measurements on the mean and standard deviation for each measurement.
+* Use descriptive activity names to name the activities in the data set
+* Appropriately label the data set with descriptive variable names
+* Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ### Process
 
@@ -21,5 +21,11 @@
 * Assign an element to the columns for which we need e average.
 * Will use reshape2 package to melt data, calulate mean and create a new reshaped dataset.
 * Create tidydataset text file
+
+### Variables used
+* "ActivityLabels"    "AggrColumns"       "ExtractedTest"     "ExtractedTrain"    "Features"         
+* "FinalTestDataSet"  "FinalTrainDataSet" "MeltData"          "MergedDataSet"     "YTrain"  
+* "SubjectTest"       "SubjectTrain"      "TestDataSet"       "TidyDataSet"       "TrainDataSet"     
+* "url"               "XTest"             "XTrain"            "YTest"                   
 
 
