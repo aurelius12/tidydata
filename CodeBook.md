@@ -14,7 +14,7 @@
 * Read the text components and assign to elements
 * Assign self describng names to labels/variables
 * Label the XTest and XTrain datasets with variables from Features.
-* cbind Test and Train and datasets
+* cbind Test, Train and Subject datasets
 * Extract mean and standard deviation variables using grepl function
 * Merge the extracted datasets with ActivityLables
 * Merge the two resulted datasets to get the total combined dataset with extracted mean and std variables.
