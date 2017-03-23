@@ -6,5 +6,5 @@
 * Collect raw data from data link below which represents data collected from the accelerometers from the Samsung Galaxy S smartphone.
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 * Create a tidy data set as a text file called tidydataset.txt
-* Submit a link to a Github repository with a script for performing the analysis, called  run_analysis.R
+* Create a script for performing the task called run_analysis.R
 * Create a code book that describes the variables, the data, and any transformations or work that were performed to clean up the data called CodeBook.md
