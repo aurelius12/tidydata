@@ -42,7 +42,7 @@ names(XTrain) = Features$V2
 names(YTrain) = "ActivityID"
 names(SubjectTrain) = "SubjectID"
 
-# cbind Test and Train and datasets
+# cbind Test, Train and Subject datasets
 
 TestDataSet = cbind(XTest, YTest, SubjectTest)
 TrainDataSet = cbind(XTrain, YTrain, SubjectTrain)
